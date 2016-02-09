@@ -186,11 +186,12 @@ var counter = function(){
 
   *Hint: Don't let this fool you. Break down what's really happening here.
 */
+
 var funcArray = [
-  function() {
-    for(var i = 0; i <= funcArray.length; i++) {
-      funcArray.push(i);
-      return funcArray;
-    }
-  }
+  function(){return 0}
+, function(){return 1}
+, function(){return 2}
+, function(){return 3}
+, function(){return 4}
+, function(){return 5}
 ]
